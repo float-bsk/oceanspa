@@ -1,13 +1,20 @@
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
+import banner0 from "../../assets/banner0.webp"
+import banner1 from "../../assets/banner1.webp"
+import banner2 from "../../assets/banner2.webp"
+import banner3 from "../../assets/banner3.webp"
+import banner4 from "../../assets/banner4.webp"
+import banner5 from "../../assets/banner5.webp"
 
 const imgArray = [
-  '/src/assets/banner-0.webp',
-  '/src/assets/banner-1.webp',
-  '/src/assets/banner-2.webp',
-  '/src/assets/banner-3.webp',
-  '/src/assets/banner-4.webp',
-  '/src/assets/banner-5.webp',
+  banner0,
+  banner1,
+  banner2,
+  banner3,
+  banner4,
+  banner5,
+  
 ]
 
 const HomePage = () => {
